@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- NAVIGATION -->
+  <nav class="fixed w-full bg-white shadow-sm z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="font-bold text-lg">Bianca Clarizze S. Sollesta</h1>
+      <div class="space-x-6 hidden md:block">
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#skills" class="hover:text-blue-600">Skills</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex items-center justify-center px-6">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
+
+        <!-- Profile Image -->
+        <img src="assets/images/profile.png"
+            alt="Bianca Clarizze S. Sollesta"
+            class="w-48 h-48 rounded-full object-cover shadow">
+
+        <!-- Text Content -->
+        <div>
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+            Bianca Clarizze S. Sollesta
+        </h2>
+        <p class="text-lg text-gray-600 mb-6">
+            4th year Computer Science student building fullstack applications 
+            and data-driven systems. Currently seeking internship opportunities 
+            in frontend, backend, or data-related roles.
+        </p>
+        </div>
+
+    </div>
+    </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 text-center">Skills</h3>
+
+      <div class="grid md:grid-cols-3 gap-10 text-center">
+
+        <div>
+          <h4 class="font-semibold text-lg mb-4">Languages</h4>
+          <p>C • C++ • Python • Java • Javascript • SQL</p>
+        </div>
+
+        <div>
+          <h4 class="font-semibold text-lg mb-4">Web Development</h4>
+          <p>HTML • CSS • JavaScript • React • Node.js • Next.js</p>
+        </div>
+
+        <div>
+          <h4 class="font-semibold text-lg mb-4">Data & Tools</h4>
+          <p>MySQL • MongoDB • SQL • Pandas • NumPy • scikit-learn</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-12 text-center">Projects</h3>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- Project Card -->
+        <!-- <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition"> -->
+
+            <!-- Project Image -->
+            <!-- <img src="assets/images/project1.png"
+                alt="Project Screenshot"
+                class="w-full h-48 object-cover">
+
+            <div class="p-6">
+                <h4 class="text-xl font-semibold mb-2">Project Title</h4>
+
+                <p class="text-gray-600 mb-4">
+                Short description explaining what the project does.
+                </p> -->
+
+                <!-- Tags -->
+                <!-- <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+                    Fullstack
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Machine Learning
+                </span>
+                </div>
+
+                <div class="space-x-4">
+                <a href="#" class="text-blue-600 hover:underline">GitHub</a>
+                <a href="#" class="text-blue-600 hover:underline"> </a>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Project 1 -->
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition">
+
+            <!-- Project Image -->
+            <img src="assets/images/project1.png"
+                alt="Project Screenshot"
+                class="w-full h-48 object-cover">
+
+            <div class="p-6">
+                <h4 class="text-xl font-semibold mb-2">Room Reservation System</h4>
+
+                <p class="text-gray-600 mb-4">
+                Room Reservation System with user authentication and a responsive interface. 
+                Booking management CRUDs are being implemented using Next.js, Tailwind, and MongoDB.
+                </p>
+
+                <!-- Tags -->
+                <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+                    Fullstack
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Next.js
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Tailwind
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    MongoDB
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Authentication
+                </span>
+                </div>
+
+                <div class="space-x-4">
+                <a href="https://github.com/byanka8/RoomReservationSystem" class="text-blue-600 hover:underline">GitHub</a>
+                <a href="#" class="text-blue-600 hover:underline"> </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <!-- <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition"> -->
+
+            <!-- Project Image -->
+            <!-- <img src="assets/images/project1.png"
+                alt="Project Screenshot"
+                class="w-full h-48 object-cover">
+
+            <div class="p-6">
+                <h4 class="text-xl font-semibold mb-2">Veterinary Consultation Chatbot</h4>
+
+                <p class="text-gray-600 mb-4">
+                Prototype mobile app that uses guided prompt engineering to provide top 5 possible dog conditions and first aid instructions. Includes emergency vet connection functionality.
+                </p> -->
+
+                <!-- Tags -->
+                <!-- <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+                    Fullstack
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    React Native
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Expo
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    GPT-4
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Prompt Engineering
+                </span>
+                </div>
+
+                <div class="space-x-4">
+                <a href="#" class="text-blue-600 hover:underline">GitHub</a>
+                <a href="#" class="text-blue-600 hover:underline"> </a>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Project 3 -->
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition">
+
+            <!-- Project Image -->
+            <img src="assets/images/ERS.png"
+                alt="Project Screenshot"
+                class="w-full h-48 object-cover">
+
+            <div class="p-6">
+                <h4 class="text-xl font-semibold mb-2">Emotion Recognition System with Audio Data</h4>
+
+                <p class="text-gray-600 mb-4">
+                Classifies human emotions from audio using features such as pitch, intensity, and MFCCs. 
+                Achieved 64% accuracy with a CNN and evaluated using precision, recall, and F1-score.
+                </p>
+
+                <!-- Tags -->
+                <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+                    Machine Learning
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    CNN
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Audio Processing
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Python
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Librosa
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    scikit-learn
+                </span>
+                </div>
+
+                <div class="space-x-4">
+                <a href="https://github.com/MoominHana/speech-emotion-recognition" class="text-blue-600 hover:underline">GitHub</a>
+                <a href="#" class="text-blue-600 hover:underline"> </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition">
+
+            <!-- Project Image -->
+            <img src="assets/images/ICD.png"
+                alt="Project Screenshot"
+                class="w-full h-48 object-cover">
+
+            <div class="p-6">
+                <h4 class="text-xl font-semibold mb-2">Image Classifier Dashboard</h4>
+
+                <p class="text-gray-600 mb-4">
+                Developed a client–server system using gRPC to stream live CNN training updates. 
+                Built an interactive dashboard displaying real-time images, predictions, 
+                and training metrics for CIFAR-10.
+                </p>
+
+                <!-- Tags -->
+                <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+                    Machine Learning
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    CNN
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Python
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    gRPC
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Client-Server
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Dear PyGUI
+                </span>
+                </div>
+
+                <div class="space-x-4">
+                <a href="https://github.com/byanka8/ImageClassifierDashboard" class="text-blue-600 hover:underline">GitHub</a>
+                <a href="#" class="text-blue-600 hover:underline"> </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition">
+
+            <!-- Project Image -->
+            <img src="assets/images/FSA.png"
+                alt="Project Screenshot"
+                class="w-full h-48 object-cover">
+
+            <div class="p-6">
+                <h4 class="text-xl font-semibold mb-2">Forest Structure Analysis and Classification</h4>
+
+                <p class="text-gray-600 mb-4">
+                Classified forest types in the Tapajós National Forest, Brazil, using tree inventory data. 
+                Performed EDA, feature engineering, and trained Random Forest achieving 84% accuracy, 
+                highlighting key predictors like DBH and geographic origin.
+                </p>
+
+                <!-- Tags -->
+                <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
+                    Data Analysis
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Machine Learning
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Python
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Pandas
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Random Forest
+                </span>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    scikit-learn
+                </span>
+                </div>
+
+                <div class="space-x-4">
+                <a href="https://github.com/byanka8/ForestStructureAnalysis" class="text-blue-600 hover:underline">GitHub</a>
+                <a href="#" class="text-blue-600 hover:underline"> </a>
+                </div>
+            </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Education</h3>
+      <p class="text-lg">
+        B.S. in Computer Science Major in Software Technology<br>
+        De La Salle Universtiy<br>
+        Expected Graduation: 2026
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-gray-50 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">Contact</h3>
+      <p class="mb-4">bianclarizze06.sollesta@gmail.com</p>
+      <div class="space-x-6">
+        <a href="https://github.com/byanka8"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-blue-600 hover:underline">GitHub</a>
+        <a href="https://linkedin.com/in/bianca-sollesta"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-blue-600 hover:underline">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-6 text-center text-gray-500 text-sm">
+    © 2026 Bianca Clarizze S. Sollesta
+  </footer>
+
+</body>
+</html>
